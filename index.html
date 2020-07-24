@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="jabquiz">
+                <div class="jabquiz__question-box">
+                    <h1 class="jabquiz__question">Which team won the superbowl in 2010</h1>
+                    <p class="jabquiz__tracker">1 of 10</p>
+                    <div class="progress">
+                        <div class="progress__inner"></div>
+                    </div>
+                    <p class="jabquiz__tagline">Pick an option below</p>
+                </div>
+                <div class="jabquiz__choices-box">
+                    <ul class="jabquiz__choices">
+                        <li class="jabquiz__choice">
+                            <input type="radio" name="choices" class="jabquiz__input" id="choice0" checked>
+                            <label for="choice0" class="jabquiz__label">
+                            <i></i>
+                            Pittsburgh Steelers
+                        </label>
+                        </li>
+
+                        <li class="jabquiz__choice">
+                            <input type="radio" name="choices" class="jabquiz__input" id="choice1" >
+                            <label for="choice1" class="jabquiz__label">
+                            <i></i>
+                            New England Patriots
+                        </label>
+                        </li>
+
+
+                        <li class="jabquiz__choice">
+                            <input type="radio" name="choices" class="jabquiz__input" id="choice2" >
+                            <label for="choice2" class="jabquiz__label">
+                            <i></i>
+                            Atlanta Falcons
+                        </label>
+                        </li>
+
+
+                        <li class="jabquiz__choice">
+                            <input type="radio" name="choices" class="jabquiz__input" id="choice3" >
+                            <label for="choice3" class="jabquiz__label">
+                            <i></i>
+                            New Orleans Saints
+                        </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                   <button class="button button--bordered next">next</button>
+                   <button class="button button--bordered restart">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
